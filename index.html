@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguridad en el Trabajo - Motosierra</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace a un archivo de estilos CSS -->
+    <script src="script.js" defer></script> <!-- Enlace a un archivo de JavaScript -->
+</head>
+<body>
+    <!-- Cabecera -->
+    <header>
+        <h1>Portal de Seguridad en el Manejo de Motosierra</h1>
+        <nav>
+            <ul>
+                <li><a href="#procedimientos">Procedimientos de Trabajo Seguro</a></li>
+                <li><a href="#instructivos">Instructivos de Emergencias</a></li>
+                <li><a href="#tipos-emergencias">Tipos de Emergencias</a></li>
+                <li><a href="#peligros">Peligros y Riesgos</a></li>
+                <li><a href="#reportar-accidente">Reportar un Accidente</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Secciones de contenido -->
+    <section id="procedimientos">
+        <h2>Procedimientos de Trabajo Seguro</h2>
+        <p>En esta sección encontrarás los procedimientos adecuados para garantizar la seguridad al operar una motosierra.</p>
+        <ul>
+            <li>Procedimiento 1: Inspección de la motosierra antes de su uso.</li>
+            <li>Procedimiento 2: Uso de equipo de protección personal (EPP).</li>
+            <li>Procedimiento 3: Técnicas de corte seguras.</li>
+        </ul>
+    </section>
+
+    <section id="instructivos">
+        <h2>Instructivos de Manejo y Control de Emergencias</h2>
+        <p>Instructivos detallados para manejar situaciones de emergencia mientras se utiliza una motosierra.</p>
+        <ul>
+            <li>Instructivo 1: ¿Qué hacer en caso de un corte accidental?</li>
+            <li>Instructivo 2: ¿Cómo detener el motor rápidamente en emergencias?</li>
+            <li>Instructivo 3: Primeros auxilios en caso de lesiones.</li>
+        </ul>
+    </section>
+
+    <section id="tipos-emergencias">
+        <h2>Tipos de Emergencias</h2>
+        <p>Las emergencias pueden ser variadas. Aquí detallamos los tipos más comunes:</p>
+        <ul>
+            <li>Emergencia 1: Corte accidental.</li>
+            <li>Emergencia 2: Falla mecánica de la motosierra.</li>
+            <li>Emergencia 3: Exposición a sustancias peligrosas.</li>
+        </ul>
+    </section>
+
+    <section id="peligros">
+        <h2>Peligros y Riesgos al Usar una Motosierra</h2>
+        <p>Al operar una motosierra, el trabajador está expuesto a varios riesgos, entre los cuales destacan:</p>
+        <ul>
+            <li>Riesgo 1: Lesiones por contacto con la hoja de corte.</li>
+            <li>Riesgo 2: Caídas de árboles o ramas.</li>
+            <li>Riesgo 3: Fatiga y sobreesfuerzo.</li>
+        </ul>
+    </section>
+
+    <!-- Formulario para reportar accidentes -->
+    <section id="reportar-accidente">
+        <h2>Reportar un Accidente</h2>
+        <p>Si has sido testigo o víctima de un accidente, por favor, completa el siguiente formulario:</p>
+        <form id="form-reportar" action="reportar_accidente.php" method="POST">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="descripcion">Descripción del Accidente:</label><br>
+            <textarea id="descripcion" name="descripcion" rows="4" cols="50" required></textarea><br><br>
+            <label for="fecha">Fecha del Accidente:</label>
+            <input type="date" id="fecha" name="fecha" required><br><br>
+            <button type="submit">Enviar Reporte</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Seguridad en el Trabajo - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
